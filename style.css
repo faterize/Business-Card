@@ -1,0 +1,17 @@
+.faterize{
+    width: 150px;
+}
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+color: #2b2839;
+background-color: #ddebf8;
+border-bottom: 6px #d8cefe solid;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
