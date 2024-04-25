@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+body { 
+    text-align: center;
+    font-family: "Happy Monkey";
+    background: linear-gradient(rgb(182, 10, 10), gold)
+
+}
+header { 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#birthday { 
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 5px solid #efb0c9;
+}
+.special { 
+    background-color: #efb0c9;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.gift-img { 
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(./images/gift-cover.jpg);
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.gift-section { 
+    margin-top: 50px;
+}
+.gift-title { 
+    margin-bottom: 10px;
+}
+.gift-hint { 
+    margin-top: 0;
+}
+#bff-happy:hover { 
+    background-image:url(./images/happy.gif) ;
+}
+#bff-hot:hover { 
+    background-image: url(./images/hot.gif);
+}
+#bff-genius:hover { 
+    background-image: url(./images/genius.gif);
+}
+#bff-bond:hover { 
+    background-image: url(./images/badass.gif);
+}
+#bff-cheers:hover { 
+    background-image: url(./images/cheers.gif);
+}
+#bff-cheers { 
+    height: 200px;
+}
+a { 
+    color: white;
+}
